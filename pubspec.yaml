@@ -1,0 +1,44 @@
+name: portfolio
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  hooks_riverpod: ^2.6.1
+  flutter_hooks: ^0.20.5
+  intl: ^0.19.0
+  path: ^1.9.0
+  google_fonts: ^6.2.1
+  package_info_plus: ^8.2.0
+  fluttertoast: ^8.2.11
+  url_launcher: ^6.3.1
+  cached_network_image: ^3.4.1
+  freezed_annotation: ^2.4.4
+  font_awesome_flutter: ^10.5.0
+  photo_view: ^0.14.0
+  flutter_svg: ^2.0.7
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  very_good_analysis: ^7.0.0
+  build_runner: ^2.4.14
+  freezed: ^2.5.8
+  json_serializable: ^6.9.3
+  rename: ^3.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+
