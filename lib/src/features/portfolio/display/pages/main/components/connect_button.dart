@@ -13,7 +13,7 @@ class ConnectButton extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: defaultPadding),
       child: InkWell(
         onTap: () {
-          launchUrl(Uri.parse('https://wa.me/8586874112'));
+          launchUrl(Uri.parse('https://wa.me/+918586874112'));
         },
         borderRadius: BorderRadius.circular(defaultPadding + 10),
         child: Container(
@@ -48,7 +48,7 @@ class ConnectButton extends StatelessWidget {
               ),
               const SizedBox(width: defaultPadding / 4),
               Text(
-                'Whatsapp',
+                'Let\'s Connect',
                 style: Theme.of(context).textTheme.labelSmall!.copyWith(
                   color: Colors.white,
                   letterSpacing: 1.2,

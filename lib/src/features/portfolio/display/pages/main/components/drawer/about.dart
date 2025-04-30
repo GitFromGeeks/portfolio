@@ -22,7 +22,7 @@ class About extends StatelessWidget {
             ),
             const SizedBox(height: defaultPadding / 4),
             const Text(
-              "I'm a full stack mobile application developer",
+              "Full Stack Software Developer",
               textAlign: TextAlign.center,
               style: TextStyle(fontWeight: FontWeight.w200, height: 1.5),
             ),

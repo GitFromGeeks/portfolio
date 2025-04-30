@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/src/core/old_sketch/responsive.dart';
+import 'package:portfolio/src/core/old_sketch/responsive.dart' show Responsive;
 
 class AnimatedDescriptionText extends StatelessWidget {
   const AnimatedDescriptionText({
@@ -16,7 +16,7 @@ class AnimatedDescriptionText extends StatelessWidget {
       duration: const Duration(milliseconds: 200),
       builder: (context, value, child) {
         return Text(
-          'I\'m capable of building excellent mobile apps, handling${Responsive.isLargeMobile(context) ? '\n' : ''} every step from ${!Responsive.isLargeMobile(context) ? '\n' : ''}concept to deployment.\nfrom  Mobile Apps to Backend',
+          'I\'m a Full Stack Software Developer with${Responsive.isLargeMobile(context) ? '\n' : ''} strong focus on${!Responsive.isLargeMobile(context) ? '\n' : ''}handling every step from design , development and deployment.\nfrom  Mobile Apps to Backend',
           maxLines: 10,
           textAlign: TextAlign.left,
           overflow: TextOverflow.ellipsis,

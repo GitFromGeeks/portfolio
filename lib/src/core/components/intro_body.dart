@@ -73,7 +73,7 @@ class IntroBody extends StatelessWidget {
               ServiceCard(
                 title: "Enterprise Device Management",
                 description:
-                    "Lock and control company devices remotely for security and operational efficiency.",
+                    "Lock and control devices within organization remotely for security and operational efficiency.",
                 icon: Icons.lock,
               ),
             ],

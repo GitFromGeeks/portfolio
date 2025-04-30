@@ -12,18 +12,14 @@ class CombineSubtitleText extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         const Responsive(
-          desktop: AnimatedSubtitleText(
-            start: 30,
-            end: 40,
-            text: 'Mobile App ',
-          ),
+          desktop: AnimatedSubtitleText(start: 30, end: 40, text: 'Software  '),
           largeMobile: AnimatedSubtitleText(
             start: 30,
             end: 25,
-            text: 'Mobile App ',
+            text: 'Software  ',
           ),
-          mobile: AnimatedSubtitleText(start: 25, end: 20, text: 'Mobile App '),
-          tablet: AnimatedSubtitleText(start: 40, end: 30, text: 'Mobile App '),
+          mobile: AnimatedSubtitleText(start: 25, end: 20, text: 'Software  '),
+          tablet: AnimatedSubtitleText(start: 40, end: 30, text: 'Software  '),
         ),
         (kIsWeb && Responsive.isLargeMobile(context)
             ? const Responsive(

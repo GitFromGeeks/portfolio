@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/src/core/components/intro_body.dart' show IntroBody;
+import 'package:portfolio/src/core/components/side_menu_button.dart'
+    show MenuButton;
 import 'package:portfolio/src/core/components/social_media_list.dart'
     show SocialMediaIconList;
 import 'package:portfolio/src/core/old_sketch/responsive.dart' show Responsive;
-import 'package:portfolio/src/features/intro/components/side_menu_button.dart'
-    show MenuButton;
 
 class Introduction extends StatelessWidget {
   const Introduction({super.key});
