@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:portfolio/src/core/old_sketch/getx_controllers/projects_controller.dart'
     show ProjectController;
+import 'package:portfolio/src/features/projects/components/image_viewer.dart'
+    show ImageViewer;
 import 'package:portfolio/src/features/projects/components/project_deatail.dart';
-import 'package:url_launcher/url_launcher.dart' show launchUrl;
 
 import '../../../core/helpers/constants/app_themes.dart'
     show bgColor, defaultPadding;
@@ -17,12 +18,12 @@ class ProjectStack extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onHover: (value) {
-        controller.onHover(index, value);
+        // controller.onHover(index, value);
         // launchUrl(Uri.parse(projectList[index].link));
       },
       onTap: () {
-        // ImageViewer(context, projectList[index].image);
-        launchUrl(Uri.parse(projectList[index].link));
+        ImageViewer(context, projectList[index].image);
+        // launchUrl(Uri.parse(projectList[index].link));
       },
       borderRadius: BorderRadius.circular(30),
       child: AnimatedContainer(

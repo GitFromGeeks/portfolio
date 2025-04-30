@@ -6,8 +6,5 @@ import 'my_app.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await AppBootstrapper.init(
-    mainAppWidget: const MyApp(),
-    runApp: runApp,
-  );
+  await AppBootstrapper.init(mainAppWidget: const MyApp(), runApp: runApp);
 }

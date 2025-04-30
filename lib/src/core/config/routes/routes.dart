@@ -19,7 +19,7 @@ class Routes {
   static const String fallbackRoute = NotFoundScreenRoute;
 
   /// The name of the route for app startup screen
-  static const String AppStartupScreenRoute = '/app-startup-screen';
+  static const String AppStartupScreenRoute = '/home';
 
   /// The name of the route for unrecognized route screen
   static const String NotFoundScreenRoute = '/route-not-found-screen';
